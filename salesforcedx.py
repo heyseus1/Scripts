@@ -20,7 +20,7 @@ def delete ():
         print("delete passed with exit code %r" % (status))
 
 def auth():
-    username="agallinat_mercury@kqed.org"
+    username="username@example.org"
     alias="Mercury"
     key="/root/server.key"
     command="force:auth:jwt:grant"
